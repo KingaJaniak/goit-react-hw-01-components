@@ -1,5 +1,12 @@
 import PropTypes from 'prop-types';
-import { StatsDiv, Title, Label, Percentage, Ul, Li } from './data.styled';
+import {
+  StatsDiv,
+  Title,
+  Label,
+  Percentage,
+  Ul,
+  Li,
+} from './statistics.styled';
 
 const Statistics = ({ title, stats }) => {
   return (
